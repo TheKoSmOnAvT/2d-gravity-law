@@ -1,0 +1,11 @@
+D:\BOOKS and study\c#\planets\planets\planets\bin\Debug\netcoreapp3.0\planets.exe
+D:\BOOKS and study\c#\planets\planets\planets\bin\Debug\netcoreapp3.0\planets.deps.json
+D:\BOOKS and study\c#\planets\planets\planets\bin\Debug\netcoreapp3.0\planets.runtimeconfig.json
+D:\BOOKS and study\c#\planets\planets\planets\bin\Debug\netcoreapp3.0\planets.runtimeconfig.dev.json
+D:\BOOKS and study\c#\planets\planets\planets\bin\Debug\netcoreapp3.0\planets.dll
+D:\BOOKS and study\c#\planets\planets\planets\bin\Debug\netcoreapp3.0\planets.pdb
+D:\BOOKS and study\c#\planets\planets\planets\obj\Debug\netcoreapp3.0\planets.csprojAssemblyReference.cache
+D:\BOOKS and study\c#\planets\planets\planets\obj\Debug\netcoreapp3.0\planets.AssemblyInfoInputs.cache
+D:\BOOKS and study\c#\planets\planets\planets\obj\Debug\netcoreapp3.0\planets.AssemblyInfo.cs
+D:\BOOKS and study\c#\planets\planets\planets\obj\Debug\netcoreapp3.0\planets.dll
+D:\BOOKS and study\c#\planets\planets\planets\obj\Debug\netcoreapp3.0\planets.pdb

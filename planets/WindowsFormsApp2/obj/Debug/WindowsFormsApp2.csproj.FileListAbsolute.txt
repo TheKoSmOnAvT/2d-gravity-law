@@ -1,0 +1,9 @@
+D:\BOOKS and study\c#\planets\planets\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+D:\BOOKS and study\c#\planets\planets\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+D:\BOOKS and study\c#\planets\planets\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+D:\BOOKS and study\c#\planets\planets\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+D:\BOOKS and study\c#\planets\planets\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+D:\BOOKS and study\c#\planets\planets\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+D:\BOOKS and study\c#\planets\planets\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+D:\BOOKS and study\c#\planets\planets\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+D:\BOOKS and study\c#\planets\planets\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
