@@ -18,7 +18,9 @@ namespace WindowsFormsApp2
         public Form1()
         {
             InitializeComponent();
-            planet_system.AddPlanet(250,300,5,2,2);
+            planet_system.AddPlanet(250,300,5, 1, 1, 5000);
+          //  planet_system.AddPlanet(600, 300, 5, 0, 0, 500);
+            planet_system.AddPlanet(450, 350, 5, 0, 0, 1000000);
         }
 
         private void Space_Click(object sender, EventArgs e)
@@ -28,8 +30,8 @@ namespace WindowsFormsApp2
 
         private void Space_Paint(object sender, PaintEventArgs e)
         {
-            e.Graphics.FillEllipse(yel, 400,400,25,25 );
-            e.Graphics.FillEllipse(yel, 400, 300, 25, 25);
+            //e.Graphics.FillEllipse(yel, 400,400,25,25 );
+            //e.Graphics.FillEllipse(yel, 400, 300, 25, 25);
 
             for (int i = 0;i<planet_system.Length;i++)
             {
