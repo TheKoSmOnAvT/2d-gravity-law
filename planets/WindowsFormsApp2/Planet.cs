@@ -14,8 +14,10 @@ namespace WindowsFormsApp2
         public float mas;
         public double vy;
         public double vx;
-        
-         public float X
+
+        public float distance;
+
+        public float X
         {
             get {
                 return (float)x;
@@ -71,6 +73,7 @@ namespace WindowsFormsApp2
             double dy_pow2 = Math.Pow(y - Yin, 2);
 
             double r = Math.Sqrt(dx_pow2 + dy_pow2);
+            distance = (float)r;
             r = Math.Pow(r, 3);
 
             double ax = G*Mas * (Xin - x) / r;
@@ -82,6 +85,15 @@ namespace WindowsFormsApp2
             x = x + vx * dT;
             y = y + vy * dT;
 
+        }
+
+        public void check_zone()
+        {
+            x = x > 1850 ? 0 : x;
+            x = x < 0 ? 1850 : x;
+
+            y = y > 950 ? 0 : y;
+            y = y < 0 ?  950 : y;
         }
     }
 }

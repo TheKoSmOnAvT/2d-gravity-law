@@ -18,9 +18,20 @@ namespace WindowsFormsApp2
         public Form1()
         {
             InitializeComponent();
-            planet_system.AddPlanet(250,300,5, 1, 1, 5000);
-          //  planet_system.AddPlanet(600, 300, 5, 0, 0, 500);
-            planet_system.AddPlanet(450, 350, 5, 0, 0, 1000000);
+            Random rnd = new Random();
+
+           // planet_system.AddPlanet(1900,1000,10,0,0,0);
+            for (int i = 0; i < 10; i++)
+            {
+                int x = rnd.Next(10,1500) ;
+                int y = rnd.Next(10, 1500);
+
+                int vx = rnd.Next(-10, 10);
+                int vy = rnd.Next(-10, 10);
+                int rad = rnd.Next(1, 10);
+                int mas = rnd.Next(10, 1000000);
+                planet_system.AddPlanet(x,y,rad,vx,vy,mas);
+            }
         }
 
         private void Space_Click(object sender, EventArgs e)
@@ -30,9 +41,6 @@ namespace WindowsFormsApp2
 
         private void Space_Paint(object sender, PaintEventArgs e)
         {
-            //e.Graphics.FillEllipse(yel, 400,400,25,25 );
-            //e.Graphics.FillEllipse(yel, 400, 300, 25, 25);
-
             for (int i = 0;i<planet_system.Length;i++)
             {
                 e.Graphics.FillEllipse(Red, planet_system.Planet_data[i].X, planet_system.Planet_data[i].Y , planet_system.Planet_data[i].Rad*2, planet_system.Planet_data[i].Rad*2);
